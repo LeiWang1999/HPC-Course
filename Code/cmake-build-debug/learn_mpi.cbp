@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learn_mpi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\examples\;CMake Files\exam2021\;CMake Files\exercise\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.calculatePi">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/6.calculatePi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 6.calculatePi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.calculatePi/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/6.calculatePi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 6.calculatePi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.relaypassing">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/4.relaypassing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 4.relaypassing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.relaypassing/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/4.relaypassing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 4.relaypassing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.Jacobi_1">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/5.Jacobi_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 5.Jacobi_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.Jacobi_1/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/5.Jacobi_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 5.Jacobi_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.timer">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/3.timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 3.timer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.timer/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/3.timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 3.timer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.costomizeDataType">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/2.costomizeDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 2.costomizeDataType"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.costomizeDataType/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/2.costomizeDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 2.costomizeDataType/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.messagePassing">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/1.messagePassing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 1.messagePassing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.messagePassing/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/1.messagePassing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 1.messagePassing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0.helloworld">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/0.helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 0.helloworld"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0.helloworld/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/0.helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 0.helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam4">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam4/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam3">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam3/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam2">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam2/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam1">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2021-exam1/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/2021-exam1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 2021-exam1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exam2021/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangleTransfer">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/triangleTransfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 triangleTransfer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangleTransfer/fast">
+				<Option output="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/triangleTransfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/open-mpi/4.1.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 triangleTransfer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/exam1.c">
+			<Option target="2021-exam1"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/exam2.c">
+			<Option target="2021-exam2"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/exam3.c">
+			<Option target="2021-exam3"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/exam4.c">
+			<Option target="2021-exam4"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/0.helloworld.cpp">
+			<Option target="0.helloworld"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/1.messagePassing.cpp">
+			<Option target="1.messagePassing"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/2.costomizeDataType.cpp">
+			<Option target="2.costomizeDataType"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/3.timer.cpp">
+			<Option target="3.timer"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/4.relaypassing.cpp">
+			<Option target="4.relaypassing"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/5.Jacobi_1.cpp">
+			<Option target="5.Jacobi_1"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/6.calculatePi.cpp">
+			<Option target="6.calculatePi"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exercise/triangleTransfer.c">
+			<Option target="triangleTransfer"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exam2021\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/hello-world/6.mpi/exercise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exercise\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

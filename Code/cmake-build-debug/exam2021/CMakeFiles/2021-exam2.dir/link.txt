@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/2021-exam2.dir/exam2.c.o -o 2021-exam2  /usr/local/Cellar/open-mpi/4.1.2/lib/libmpi.dylib 

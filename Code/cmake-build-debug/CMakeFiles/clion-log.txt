@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wanglei/Desktop/hello-world/6.mpi
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/wanglei/Desktop/hello-world/6.mpi/cmake-build-debug

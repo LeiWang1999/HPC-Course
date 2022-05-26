@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/Cellar/libevent/2.1.12/lib CMakeFiles/3.timer.dir/3.timer.cpp.o -o 3.timer  /usr/local/Cellar/open-mpi/4.1.2/lib/libmpi.dylib 

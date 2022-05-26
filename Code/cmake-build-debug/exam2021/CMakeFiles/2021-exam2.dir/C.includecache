@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/exam2.c
+stdio.h
+-
+stdlib.h
+-
+mpi.h
+/Users/wanglei/Desktop/hello-world/6.mpi/exam2021/mpi.h
+
+/usr/local/Cellar/open-mpi/4.1.2/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/usr/local/Cellar/open-mpi/4.1.2/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/Cellar/open-mpi/4.1.2/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/usr/local/Cellar/open-mpi/4.1.2/include/mpi_portable_platform.h
+omp.h
+/usr/local/Cellar/open-mpi/4.1.2/include/omp.h
+omp.h
+/usr/local/Cellar/open-mpi/4.1.2/include/omp.h
+
